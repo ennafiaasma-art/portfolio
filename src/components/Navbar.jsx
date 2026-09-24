@@ -25,7 +25,7 @@ function Navbar() {
             <li key={link.name}>
               <a
                 href={link.href}
-                className="relative text-slate-300 transition hover:text-white after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-0 after:bg-indigo-500 after:transition-all hover:after:w-full"
+                className="relative text-slate-300 transition hover:text-white after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-indigo-500 after:transition-all hover:after:w-full"
               >
                 {link.name}
               </a>
@@ -35,6 +35,8 @@ function Navbar() {
 
         <button
           className="md:hidden text-white"
+          aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
+          aria-expanded={open}
           onClick={() => setOpen(!open)}
         >
           {open ? <X size={30} /> : <Menu size={30} />}

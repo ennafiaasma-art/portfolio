@@ -13,7 +13,7 @@ function Hero() {
             Bonjour 👋, je suis
           </p>
 
-          <h1 className="text-6xl font-extrabold md:text-7xl">
+          <h1 className="text-5xl font-extrabold sm:text-6xl md:text-7xl">
             Asma <span className="text-indigo-500">Ennafia</span>
           </h1>
 
@@ -29,7 +29,7 @@ function Hero() {
 
           <div className="mt-10 flex flex-wrap gap-4">
             <a
-              href="https://github.com/ennafiaasma-art"
+              href="#projects"
               className="rounded-xl bg-indigo-600 px-8 py-4 font-semibold transition hover:bg-indigo-700"
             >
               Voir mes projets

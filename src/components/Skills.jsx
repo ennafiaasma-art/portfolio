@@ -20,7 +20,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="py-24 bg-slate-950"
+      className="scroll-mt-24 py-24 bg-slate-950"
     >
 
       <div className="max-w-7xl mx-auto px-6">

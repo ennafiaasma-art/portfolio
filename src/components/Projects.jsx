@@ -2,7 +2,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="bg-slate-900 py-24"
+      className="scroll-mt-24 bg-slate-900 py-24"
     >
 
       <div className="max-w-7xl mx-auto px-6">

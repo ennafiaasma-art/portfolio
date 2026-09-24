@@ -1,7 +1,14 @@
 
+import {
+  ArrowUpRight,
+  Mail,
+  MapPin,
+  Phone,
+} from "lucide-react";
+
 function Contact() {
   return (
-    <section id="contact" className="py-24 bg-slate-950 text-white">
+    <section id="contact" className="scroll-mt-24 py-24 bg-slate-950 text-white">
       <div className="max-w-5xl mx-auto px-6">
 
         {/* Titre */}
@@ -32,7 +39,7 @@ function Contact() {
               className="group p-6 rounded-2xl bg-slate-800/70 border border-slate-700 hover:border-cyan-400 hover:bg-slate-800 transition-all duration-300"
             >
               <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-cyan-400/10 text-cyan-400 text-2xl mb-4 group-hover:scale-110 transition">
-                ☎
+                <Phone aria-hidden="true" size={24} />
               </div>
 
               <h3 className="font-semibold text-lg mb-2">
@@ -50,7 +57,7 @@ function Contact() {
               className="group p-6 rounded-2xl bg-slate-800/70 border border-slate-700 hover:border-cyan-400 hover:bg-slate-800 transition-all duration-300"
             >
               <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-cyan-400/10 text-cyan-400 text-2xl mb-4 group-hover:scale-110 transition">
-                ✉
+                <Mail aria-hidden="true" size={24} />
               </div>
 
               <h3 className="font-semibold text-lg mb-2">
@@ -65,7 +72,7 @@ function Contact() {
             {/* Localisation */}
             <div className="group p-6 rounded-2xl bg-slate-800/70 border border-slate-700 hover:border-cyan-400 hover:bg-slate-800 transition-all duration-300">
               <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-cyan-400/10 text-cyan-400 text-2xl mb-4 group-hover:scale-110 transition">
-                📍
+                <MapPin aria-hidden="true" size={24} />
               </div>
 
               <h3 className="font-semibold text-lg mb-2">
@@ -95,7 +102,7 @@ function Contact() {
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center gap-4 px-7 py-4 rounded-xl bg-slate-800 border border-slate-700 hover:border-white hover:bg-slate-700 transition-all duration-300"
               >
-                <FaGithub className="text-3xl text-white group-hover:scale-110 transition-transform duration-300" />
+                <span aria-hidden="true" className="text-2xl font-bold text-white group-hover:scale-110 transition-transform duration-300">GH</span>
 
                 <div className="text-left">
                   <p className="text-xs text-slate-400">
@@ -108,18 +115,18 @@ function Contact() {
                 </div>
 
                 <span className="ml-3 text-slate-400 group-hover:text-white transition">
-                  ↗
+                  <ArrowUpRight aria-hidden="true" size={20} />
                 </span>
               </a>
 
               {/* LinkedIn */}
               <a
-                href="TON_LIEN_LINKEDIN"
+                href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center gap-4 px-7 py-4 rounded-xl bg-slate-800 border border-slate-700 hover:border-blue-400 hover:bg-slate-700 transition-all duration-300"
               >
-                <FaLinkedinIn className="text-3xl text-blue-400 group-hover:scale-110 transition-transform duration-300" />
+                <span aria-hidden="true" className="text-2xl font-bold text-blue-400 group-hover:scale-110 transition-transform duration-300">in</span>
 
                 <div className="text-left">
                   <p className="text-xs text-slate-400">
@@ -132,7 +139,7 @@ function Contact() {
                 </div>
 
                 <span className="ml-3 text-slate-400 group-hover:text-blue-400 transition">
-                  ↗
+                  <ArrowUpRight aria-hidden="true" size={20} />
                 </span>
               </a>
 
