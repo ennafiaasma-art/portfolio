@@ -39,7 +39,11 @@ function Projects() {
               <span className="bg-indigo-600 px-4 py-2 rounded-full">
                 MySQL
               </span>
-
+              <a href="https://github.com/ennafiaasma-art/Linkup-L-cosyst-me-des-R-seaux-Professionnels-Linkedin-clone-">
+               <span className="bg-purple-600 px-4 py-2 rounded-full">
+                lien GitHub 
+              </span>
+              </a>
             </div>
 
           </div>
@@ -70,6 +74,12 @@ function Projects() {
               <span className="bg-purple-600 px-4 py-2 rounded-full">
                 MySQL
               </span>
+              <a href="https://github.com/ennafiaasma-art/BDE-Events-La-Billetterie-du-Campus-ENAA">
+               <span className="bg-purple-600 px-4 py-2 rounded-full">
+                lien GitHub 
+              </span>
+              </a>
+
 
             </div>
 
